@@ -12,6 +12,8 @@ def grid_traveler(s:int, d:int, memo:dict={}) -> int:
     return memo[s*d]
 
 if __name__ == '__main__':
-    print(grid_traveler(4,4))
+    s = input('eter 2 values with space between: ')
+    x,y = [int(i) for i in s.split()]
+    print(grid_traveler(x,y))
 
 

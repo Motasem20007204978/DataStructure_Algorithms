@@ -1,6 +1,4 @@
 import click
-from ...my_package.most_used_methods import check_time_spent
-
 
 # fibonanci is a recursive function that returns the nth fibonanci number
 # it refer to the population if rabbits in a rabbit farm 
